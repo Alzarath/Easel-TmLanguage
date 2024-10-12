@@ -1,0 +1,25 @@
+{
+  "name": "easel",
+  "displayName": "easel",
+  "description": "Easel language syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "easel",
+      "aliases": ["Easel", "easel"],
+      "extensions": [".easel"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "easel",
+      "scopeName": "source.easel",
+      "path": "./syntaxes/easel.tmLanguage.json"
+    }]
+  }
+}

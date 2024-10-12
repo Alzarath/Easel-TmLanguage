@@ -42,46 +42,13 @@
 		"code": {
 			"patterns": [
 				{
-					"include": "#annotations"
-				},
-				{
 					"include": "#comments"
 				},
 				{
 					"include": "#constants"
 				},
 				{
-					"include": "#enums"
-				},
-				{
-					"include": "#class"
-				},
-				{
-					"include": "#record"
-				},
-				{
-					"include": "#anonymous-block-and-instance-initializer"
-				},
-				{
-					"include": "#try-catch-finally"
-				},
-				{
-					"include": "#assertions"
-				},
-				{
-					"include": "#parens"
-				},
-				{
-					"include": "#constants-and-special-vars"
-				},
-				{
 					"include": "#numbers"
-				},
-				{
-					"include": "#anonymous-classes-and-new"
-				},
-				{
-					"include": "#lambda-expression"
 				},
 				{
 					"include": "#keywords"
@@ -93,25 +60,16 @@
 					"include": "#function-call"
 				},
 				{
-					"include": "#variables"
-				},
-				{
 					"include": "#variables-mutable"
 				},
 				{
 					"include": "#objects"
 				},
 				{
-					"include": "#properties"
-				},
-				{
 					"include": "#storage"
 				},
 				{
 					"include": "#strings"
-				},
-				{
-					"include": "#all-types"
 				},
 				{
 					"match": ",",
